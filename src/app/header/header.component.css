@@ -1,10 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
 /*header*/
 header{
     padding: 20px 0px;
     text-align: center;
-    background-color:navajowhite;
+    background-color:rgb(255, 38, 0);
 }
 header h1{
-    color: rgb(77, 63, 17);
+    color: rgb(255, 255, 255);
     letter-spacing:3px;
+    font-family:Arial, Helvetica, sans-serif;
 }
