@@ -3,18 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListComponent } from './components/list/list.component';
-import { ViewComponent } from './components/view/view.component';
+import { HeaderComponent } from './header/header.component';
+import {HttpClientModule } from '@angular/common/http';
+import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
+import { ComponentComponent } from './component/component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent,
-    ViewComponent
+    HeaderComponent,
+    PokemonListComponent,
+    ComponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

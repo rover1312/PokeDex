@@ -1,0 +1,10 @@
+/*header*/
+header{
+    padding: 20px 0px;
+    text-align: center;
+    background-color:navajowhite;
+}
+header h1{
+    color: rgb(77, 63, 17);
+    letter-spacing:3px;
+}
